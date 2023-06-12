@@ -56,3 +56,15 @@ body {
     color: #fff;
     font-size: 16px;
 }
+.title{
+    font-family:var(--CR);
+font-size: 36px;
+font-weight: 400;
+line-height: 40px;
+color: #F18128;
+border-bottom:var(--lightor) 2px solid ;
+width: max-content;
+padding-bottom: 10px;
+margin-bottom: 54px;
+text-transform: capitalize;
+}
