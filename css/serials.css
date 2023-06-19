@@ -81,6 +81,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 color: #fff;
+padding: 0 22px;
 }
 .bigcard__body{
     height: 100%;
@@ -118,7 +119,4 @@ color: #fff;
     .bigcard__desc-title{
         font-size: 30px;
     }
-}
-@media screen and (max-width:) {
-    
 }
