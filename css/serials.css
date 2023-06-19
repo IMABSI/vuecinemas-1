@@ -68,6 +68,10 @@ color: #fff;
     left: 0;
     z-index: -1;    
 }
+.bigcard:hover{
+    background: #0B0B0B99;
+}
+
 .bigcard__desc-title{
     font-family: var(--CB);
 font-size: 40px;
