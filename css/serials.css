@@ -1,0 +1,124 @@
+.serials{
+    padding: 63px 0;
+
+}
+.grid__layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 184px;
+    gap: 30px;
+}
+.card:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.card{
+    position: relative;
+    background: #232323CC;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.card img:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+.card__body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.icon{
+    font-size: 40px;
+}
+.card:hover{
+    background: #23232300;
+}
+.card__body-title{
+    font-family: var(--CB);
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+color: #fff;
+
+}
+/* ----- */
+.bigcard{
+    height: 436px;
+    margin-bottom: 30px;
+    position: relative;
+    background: #232323CC;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.bigcard img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;    
+}
+.bigcard__desc-title{
+    font-family: var(--CB);
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+color: #fff;
+}
+.bigcard__desc-p{
+    font-family: var(--CR);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #fff;
+}
+.bigcard__body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.bigcard__desc{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 27px;
+}
+/* ---addaptation--- */
+@media screen and (max-width:708px) {
+    .card__body-title{
+        font-size: 20px;
+    }
+    .grid__layout{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 200px;
+    }
+}
+@media screen and (max-width:389px) {
+    .grid__layout{
+        grid-auto-rows: 150px;
+    }
+    .bigcard__desc-p{
+        font-size: 12px;
+    }
+    .bigcard__desc-title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:) {
+    
+}
