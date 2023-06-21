@@ -41,7 +41,7 @@
     font-size: 40px;
 }
 .card:hover{
-    background: #23232300;
+    background: #23232322;
 }
 .card__body-title{
     font-family: var(--CB);
@@ -69,7 +69,7 @@ color: #fff;
     z-index: -1;    
 }
 .bigcard:hover{
-    background: #0B0B0B99;
+    background: #0B0B0B22;
 }
 
 .bigcard__desc-title{
